@@ -1,0 +1,25 @@
+.sidebar {
+    .scrollable {
+        &::-webkit-scrollbar {
+            width: 8px;
+            background-color: #121212;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            border-radius: 8px;
+            background-color: #535353;
+        }
+    }
+}
+
+.content-area {
+    &::-webkit-scrollbar {
+        width: 8px;
+        background-color: #181818;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 8px;
+        background-color: #535353;
+    }
+}
